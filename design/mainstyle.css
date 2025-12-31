@@ -1,0 +1,253 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url("/design/images/background.png");
+}
+
+/*--------------------------DIV bodyDIVContainer--------------------------*/
+.bodyDIVContainer{
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+}
+/*--------------------------End of DIV bodyDIVContainer--------------------------*/
+
+
+/*--------------------------Text--------------------------*/
+
+h1{
+   color: blue;
+}
+
+h1#principalTitle.pab{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 70px;
+   text-align: center;
+   position: relative;
+   animation-iteration-count: 1;
+   animation-name: titleAnimation; 
+   animation-timing-function: ease;
+   animation-duration: 3s;
+}
+
+/*--------------------------End of text part--------------------------*/
+
+/*--------------------------Principal title text animation--------------------------*/
+
+@keyframes titleAnimation {
+  from {bottom: -100px;}
+  to {bottom: -0px;}
+}
+
+.pab {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+
+/*--------------------------End of Principal title text--------------------------*/
+
+
+/*--------------------------DIV Principal title text--------------------------*/
+#welcome{
+   padding-top: 10%;
+}
+/*--------------------------End of DIV Principal title text--------------------------*/
+
+
+/*--------------------------Box of content--------------------------*/
+
+/*DIV of the box of content*/
+#wrapper{
+   padding-top: 0%; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 75vw;
+   height: 100vh;
+   opacity: 0;
+}
+
+/*----Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+#navBar{
+   height: 58.4px;
+}
+
+ul {
+  list-style-type: none;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+/*IDS of li tag*/
+#ArtBlog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#ArtBlog.active a{
+   background: white;
+   color: black;
+}
+
+#News a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Blog a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Wishlist a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+#Shop a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#Instagram {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+   color: white;
+}
+
+/*----End of Navigation bar (Art Blog, News, Blog, Whishlist, Shop, About)----*/
+
+
+/*----DIV inside Wrapper DIV that contains all the art blog posts----*/
+
+/*----POSTS and ARTICLES section*/
+
+#posts{
+   background: white;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+}
+
+article {
+   overflow: hidden;
+}
+
+/*------------------MAIN POST ARTICLE------------------*/
+.mainPostDate{
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   color: gray;
+}
+
+.mainPostDate::before, .mainPostDate::after {
+   border-top: 3px dashed grey;
+   flex: 3;
+   content: '';
+   margin: 20px;
+   opacity: 20%;
+}
+
+.mainTitlePrincipalPost{
+   text-align: center;
+   font-size: 50px;
+   color: black;
+}
+
+.mainPostDescription{
+   text-align: center;
+   font-size: 15px;
+   color: black;
+}
+
+.mainDIVImage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/*------------------END MAIN POST ARTICLE------------------*/
+
+/*----End of DIV inside Wrapper DIV that contains all the art blog posts----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
